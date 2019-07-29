@@ -16,6 +16,7 @@ public class DemoController {
     @RequestMapping("/get/mail")
     @ResponseBody
     public String getMail(){
+        //提交代码
         return alarmMailDomain.get(1).toString();
     }
 }
