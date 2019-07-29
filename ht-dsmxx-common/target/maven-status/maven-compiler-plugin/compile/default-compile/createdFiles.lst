@@ -1,0 +1,6 @@
+com\ht\dsmxx\common\springboot\config\RedisConfig.class
+com\ht\dsmxx\common\springboot\config\FastJsonRedisSerializer.class
+com\ht\dsmxx\common\springboot\config\MybatisPlusConfig.class
+com\ht\dsmxx\common\utils\BeanUtil$ConversionCustomizble.class
+com\ht\dsmxx\common\page\HtPage.class
+com\ht\dsmxx\common\utils\BeanUtil.class

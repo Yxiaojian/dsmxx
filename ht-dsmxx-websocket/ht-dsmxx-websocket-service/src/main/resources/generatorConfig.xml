@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "D://repository//mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <!--mysql 连接数据库jar 这里选择自己本地位置-->
+    <classPathEntry location="D:\repository\mysql\mysql-connector-java\5.1.38\mysql-connector-java-5.1.38.jar"/>
+    <context id="testTables" targetRuntime="MyBatis3">
+        <plugin type="org.mybatis.generator.plugins.CaseInsensitiveLikePlugin"></plugin>
+        <plugin type="org.mybatis.generator.plugins.SerializablePlugin"></plugin>
+
+        <!-- 需要修改源码 -->
+        <commentGenerator type="org.mybatis.generator.internal.MyCommentGenerator">
+            <!-- mybatisPlus 格式-->
+            <property name="mybatisPlus" value="true"/>
+            <!-- 文件编码 -->
+            <property name="javaFileEncoding" value="UTF-8"/>
+            <!-- 忽略所有注解，使用自定义的注解生成 -->
+            <property name="suppressAllComments" value="true"/>
+            <!-- 作者 -->
+            <property name="author" value="zhangyang"/>
+            <!-- 时间 value值为时间格式-->
+            <property name="date" value="yyyy/MM/dd"/>
+        </commentGenerator>
+
+
+        <!--数据库连接的信息：驱动类、连接地址、用户名、密码 -->
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://10.10.1.177:3306/dsmxx"
+                        userId="dsm"
+                        password="root">
+        </jdbcConnection>
+
+
+        <!-- 配置后tinyint,smallint的对应java类型改为Integer,不需要的话可删除此配置  需要修改源码-->
+        <!--<javaTypeResolver type="org.mybatis.generator.internal.types.PandaJavaTypeResolverDefaultImpl"/>-->
+
+        <!-- 默认false，把JDBC DECIMAL 和 NUMERIC 类型解析为 Integer，为 true时把JDBC DECIMAL 和
+           NUMERIC 类型解析为java.math.BigDecimal -->
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="false"/>
+        </javaTypeResolver>
+
+        <javaDomainGenerator targetPackage="com.ht.dsmxx.websocket.domain" targetProject="src/main/java">
+            <property name="enableSubPackages" value="true"/>
+        </javaDomainGenerator>
+
+        <javaServiceGenerator targetPackage="com.ht.dsmxx.websocket.service" targetProject="src/main/java">
+            <property name="enableSubPackages" value="true"/>
+        </javaServiceGenerator>
+
+        <javaModelGenerator targetPackage="com.ht.dsmxx.websocket.model" targetProject="src/main/java">
+        </javaModelGenerator>
+
+        <sqlMapGenerator targetPackage="com.ht.dsmxx.websocket.mapper" targetProject="src/main/java">
+            <property name="enableSubPackages" value="false"/>
+        </sqlMapGenerator>
+
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.ht.dsmxx.websocket.mapper" targetProject="src/main/java">
+            <property name="enableSubPackages" value="false"/>
+        </javaClientGenerator>
+        <!-- 指定数据库表 -->
+        <table tableName="ht_dsm_approve_user_link" domainObjectName="ApproveUserLink">
+            <!--<property name="useActualColumnNames" value="true"/>-->
+            <generatedKey column="Id" sqlStatement="MySql" identity="true"/>
+            <columnRenamingRule searchString="^F" replaceString=""/>
+            <columnOverride jdbcType="VARCHAR" javaType="java.lang.String" column="FRequestContent"/>
+            <columnOverride jdbcType="VARCHAR" javaType="java.lang.String" column="FResponseContent"/>
+        </table>
+
+        <!--<table tableName="t_LiMaBenefitInfo" domainObjectName="LiMaBenefitInfo">-->
+            <!--<property name="useActualColumnNames" value="true"/>-->
+            <!--<generatedKey column="FId" sqlStatement="MySql" identity="true"/>-->
+            <!--<columnRenamingRule searchString="^F" replaceString=""/>-->
+            <!--<columnOverride jdbcType="VARCHAR" javaType="java.lang.String" column="FRequestContent"/>-->
+            <!--<columnOverride jdbcType="VARCHAR" javaType="java.lang.String" column="FResponseContent"/>-->
+        <!--</table>-->
+
+        <!-- <table schema="" tableName="success_killed"></table>-->
+    </context>
+</generatorConfiguration>

@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d56cd677-b24d-42b1-a403-ee066a5506ca" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/ht-dsmxx-websocket/ht-dsmxx-websocket-interface/target/" />
+    <ignored path="$PROJECT_DIR$/ht-dsmxx-websocket/ht-dsmxx-websocket-service/target/" />
+    <ignored path="$PROJECT_DIR$/ht-dsmxx-websocket/target/" />
+    <ignored path="$PROJECT_DIR$/ht-dsmxx-center/target/" />
+    <ignored path="$PROJECT_DIR$/ht-dsmxx-common/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="489520838">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="359" />
+          <entry key="properties" value="19" />
+          <entry key="xml" value="224" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="359" />
+          <entry key="Properties" value="19" />
+          <entry key="XML" value="224" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="11" />
+          <entry key="dtd" value="1" />
+          <entry key="java" value="77" />
+          <entry key="pom" value="35" />
+          <entry key="properties" value="5" />
+          <entry key="xml" value="43" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="11" />
+          <entry key="DTD" value="1" />
+          <entry key="JAVA" value="77" />
+          <entry key="Properties" value="5" />
+          <entry key="XML" value="78" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ht-dsmxx-websocket/ht-dsmxx-websocket-service/src/main/java/com/ht/dsmxx/websocket/handler/WebSocketNoticeHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ht-dsmxx-websocket/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ht-dsmxx-center/src/main/java/com/ht/dsmxx/HtDsmxxCenterApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ht-dsmxx-center/src/main/java/com/ht/dsmxx/controller/DemoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ht-dsmxx-websocket/ht-dsmxx-websocket-service/src/main/java/com/ht/dsmxx/websocket/config/WebSocketConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>BzPage</find>
+      <find>fastjson</find>
+      <find>java.version</find>
+      <find>maven-plugin</find>
+      <find>tomcat</find>
+      <find>(\w)_(\w)</find>
+      <find>@TableField(&quot;F</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>HtPage</replace>
+      <replace>@TableField(&quot;</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ht-dsmxx-websocket/ht-dsmxx-websocket-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/ht-dsmxx-common/src/main/java/com/ht/dsmxx/common/page/HtPage.java" />
+        <option value="$PROJECT_DIR$/ht-dsmxx-common/src/main/java/com/ht/dsmxx/common/utils/BeanUtil.java" />
+        <option value="$PROJECT_DIR$/ht-dsmxx-common/src/main/java/com/ht/dsmxx/common/springboot/config/FastJsonRedisSerializer.java" />
+        <option value="$PROJECT_DIR$/ht-dsmxx-common/src/main/java/com/ht/dsmxx/common/springboot/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/ht-dsmxx-websocket/pom.xml" />
+        <option value="$PROJECT_DIR$/ht-dsmxx-center/src/main/java/com/ht/dsmxx/controller/BaseController.java" />
+        <option value="$MAVEN_REPOSITORY$/com/ht/parent/ht-parent/1.0-SNAPSHOT/ht-parent-1.0-SNAPSHOT.pom" />
+        <option value="$PROJECT_DIR$/ht-dsmxx-common/src/main/java/com/ht/dsmxx/common/springboot/config/MybatisPlusConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ht-dsmxx-common/pom.xml" />
+        <option value="$MAVEN_REPOSITORY$/com/ht/parent/ht-parent-dsmxx/1.0-SNAPSHOT/ht-parent-dsmxx-1.0-SNAPSHOT.pom" />
+        <option value="$PROJECT_DIR$/ht-dsmxx-center/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/ht-dsmxx-center/pom.xml" />
+        <option value="$PROJECT_DIR$/ht-dsmxx-center/src/main/java/com/ht/dsmxx/HtDsmxxCenterApplication.java" />
+        <option value="$PROJECT_DIR$/ht-dsmxx-websocket/ht-dsmxx-websocket-service/src/main/java/com/ht/dsmxx/websocket/domain/AlarmMailNativeDomain.java" />
+        <option value="$PROJECT_DIR$/ht-dsmxx-center/src/main/java/com/ht/dsmxx/controller/DemoController.java" />
+        <option value="$PROJECT_DIR$/ht-dsmxx-websocket/ht-dsmxx-websocket-interface/src/main/java/com/ht/dsmxx/websocket/bo/AlarmMailBo.java" />
+        <option value="$PROJECT_DIR$/ht-dsmxx-websocket/ht-dsmxx-websocket-service/src/main/java/com/ht/dsmxx/websocket/interceptor/WebSocketInterceptor.java" />
+        <option value="$PROJECT_DIR$/ht-dsmxx-websocket/ht-dsmxx-websocket-service/pom.xml" />
+        <option value="$PROJECT_DIR$/ht-dsmxx-websocket/ht-dsmxx-websocket-service/src/main/java/com/ht/dsmxx/websocket/model/AlarmMail.java" />
+        <option value="$PROJECT_DIR$/ht-dsmxx-websocket/ht-dsmxx-websocket-service/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/ht-dsmxx-websocket/ht-dsmxx-websocket-service/src/main/java/com/ht/dsmxx/websocket/model/ApproveUserLink.java" />
+        <option value="$PROJECT_DIR$/ht-dsmxx-websocket/ht-dsmxx-websocket-service/src/main/java/com/ht/dsmxx/websocket/config/WebSocketConfig.java" />
+        <option value="$PROJECT_DIR$/ht-dsmxx-websocket/ht-dsmxx-websocket-service/src/main/java/com/ht/dsmxx/websocket/handler/WebSocketNoticeHandler.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ht-dsmxx-center" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ht-dsmxx-center" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ht-dsmxx-websocket-interface" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-10" />
+    <option name="y" value="40" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ht-dsmxx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ht-dsmxx" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564123966093" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ht-dsmxx-center/src/main/resources" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ht.dsmxx.websocket.config" />
+      <recent name="com.ht.dsmxx.websocket.handler" />
+      <recent name="com.ht.dsmxx.websocket.interceptor" />
+      <recent name="com.ht.dsmxx.websocket.bo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\gitWorkspace\ht-dsmxx\ht-dsmxx-center\src\main\resources" />
+      <recent name="D:\gitWorkspace\ht-dsmxx\ht-dsmxx-websocket\ht-dsmxx-websocket-service\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.HtDsmxxCenterApplication">
+    <configuration name="mybatis" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+                <option value="-e" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/ht-dsmxx-websocket/ht-dsmxx-websocket-service" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="HtDsmxxCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ht-dsmxx-center" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ht.dsmxx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ht.dsmxx.HtDsmxxCenterApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.mybatis" />
+      <item itemvalue="Spring Boot.HtDsmxxCenterApplication" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\26913\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d56cd677-b24d-42b1-a403-ee066a5506ca" name="Default Changelist" comment="" />
+      <created>1563868180797</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563868180797</updated>
+      <workItem from="1563868183508" duration="3888000" />
+      <workItem from="1563932251147" duration="15913000" />
+      <workItem from="1564017542445" duration="21592000" />
+      <workItem from="1564104215444" duration="1476000" />
+      <workItem from="1564105751043" duration="60000" />
+      <workItem from="1564105855279" duration="146000" />
+      <workItem from="1564106053022" duration="9573000" />
+      <workItem from="1564129932376" duration="1229000" />
+      <workItem from="1564364208748" duration="4056000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="57933000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27609682" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" order="0" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.5744681" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.7086743" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ht-dsmxx-common/src/main/java/com/ht/dsmxx/common/springboot/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ht-dsmxx-common/src/main/java/com/ht/dsmxx/common/springboot/config/FastJsonRedisSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ht-dsmxx-center/src/main/java/com/ht/dsmxx/controller/BaseController.java" />
+    <entry file="file://$PROJECT_DIR$/ht-dsmxx-center/target/classes/com/ht/dsmxx/HtDsmxxCenterApplication.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.0.7.1/mybatis-plus-extension-3.0.7.1-sources.jar!/com/baomidou/mybatisplus/extension/plugins/PaginationInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ht-dsmxx-common/src/main/java/com/ht/dsmxx/common/springboot/config/MybatisPlusConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ht-dsmxx-center/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ht-dsmxx-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ht-dsmxx-websocket/ht-dsmxx-websocket-interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ht-dsmxx-center/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="14" selection-start-line="14" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.3.RELEASE/spring-boot-2.1.3.RELEASE-sources.jar!/org/springframework/boot/WebApplicationType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ht-dsmxx-common/src/main/java/com/ht/dsmxx/common/utils/BeanUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-annotation/3.0.7.1/mybatis-plus-annotation-3.0.7.1-sources.jar!/com/baomidou/mybatisplus/annotation/TableId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ht-dsmxx-websocket/ht-dsmxx-websocket-service/src/main/java/com/ht/dsmxx/websocket/service/AlarmMailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="47" column="15" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ht-dsmxx-websocket/ht-dsmxx-websocket-service/src/main/java/com/ht/dsmxx/websocket/domain/AlarmMailRemoteDomain.java" />
+    <entry file="file://$MAVEN_REPOSITORY$/mybatis-generator-config_1_0.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="134" column="79" selection-start-line="134" selection-start-column="79" selection-end-line="134" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_172/src.zip!/java/net/URI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="1337" column="18" selection-start-line="1337" selection-start-column="18" selection-end-line="1337" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-websocket/5.1.5.RELEASE/spring-websocket-5.1.5.RELEASE.jar!/org/springframework/web/socket/handler/AbstractWebSocketHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-websocket/5.1.5.RELEASE/spring-websocket-5.1.5.RELEASE.jar!/org/springframework/web/socket/WebSocketSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/CharSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-websocket/5.1.5.RELEASE/spring-websocket-5.1.5.RELEASE.jar!/org/springframework/web/socket/TextMessage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ht-dsmxx-websocket/ht-dsmxx-websocket-service/src/main/java/com/ht/dsmxx/websocket/interceptor/WebSocketInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ht-dsmxx-websocket/ht-dsmxx-websocket-service/src/main/java/com/ht/dsmxx/websocket/mapper/AlarmMailMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ht-dsmxx-websocket/ht-dsmxx-websocket-service/src/main/java/com/ht/dsmxx/websocket/mapper/AlarmMailMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.0.7.1/mybatis-plus-core-3.0.7.1-sources.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="113" column="80" selection-start-line="113" selection-start-column="80" selection-end-line="113" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ht-dsmxx-websocket/ht-dsmxx-websocket-service/src/main/java/com/ht/dsmxx/websocket/model/AlarmMail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ht-dsmxx-websocket/ht-dsmxx-websocket-service/src/main/java/com/ht/dsmxx/websocket/bo/AlarmMailBo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ht-dsmxx-websocket/ht-dsmxx-websocket-service/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="61" column="30" lean-forward="true" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ht-dsmxx-websocket/ht-dsmxx-websocket-service/src/main/java/com/ht/dsmxx/websocket/bo/ApproveUserLinkBo.java" />
+    <entry file="file://$PROJECT_DIR$/ht-dsmxx-websocket/ht-dsmxx-websocket-service/src/main/java/com/ht/dsmxx/websocket/mapper/ApproveUserLinkMapper.java" />
+    <entry file="file://$PROJECT_DIR$/ht-dsmxx-websocket/ht-dsmxx-websocket-service/src/main/java/com/ht/dsmxx/websocket/model/ApproveUserLink.java" />
+    <entry file="file://$PROJECT_DIR$/ht-dsmxx-websocket/ht-dsmxx-websocket-service/src/main/java/com/ht/dsmxx/websocket/service/ApproveUserLinkService.java" />
+    <entry file="file://$PROJECT_DIR$/ht-dsmxx-websocket/ht-dsmxx-websocket-service/src/main/java/com/ht/dsmxx/websocket/domain/ApproveUserLinkDomain.java" />
+    <entry file="file://$PROJECT_DIR$/ht-dsmxx-common/src/main/java/com/ht/dsmxx/common/page/HtPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ht-dsmxx-websocket/ht-dsmxx-websocket-interface/src/main/java/com/ht/dsmxx/websocket/bo/AlarmMailBo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ht-dsmxx-websocket/ht-dsmxx-websocket-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="52" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ht-dsmxx-websocket/ht-dsmxx-websocket-interface/src/main/java/com/ht/dsmxx/websocket/domain/AlarmMailDomain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.1.3.RELEASE/spring-boot-starter-parent-2.1.3.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4301" />
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/com/ht/parent/ht-parent-dsmxx/1.0-SNAPSHOT/ht-parent-dsmxx-1.0-SNAPSHOT.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="100" column="41" selection-start-line="100" selection-start-column="41" selection-end-line="100" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ht-dsmxx-center/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="48" column="38" lean-forward="true" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/com/ht/parent/ht-parent/1.0-SNAPSHOT/ht-parent-1.0-SNAPSHOT.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ht-dsmxx-websocket/ht-dsmxx-websocket-service/src/main/java/com/ht/dsmxx/websocket/domain/ApproveUserLinkNativeDomain.java" />
+    <entry file="file://$PROJECT_DIR$/ht-dsmxx-websocket/ht-dsmxx-websocket-service/src/main/java/com/ht/dsmxx/websocket/domain/AlarmMailNativeDomain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-websocket/5.1.5.RELEASE/spring-websocket-5.1.5.RELEASE.jar!/org/springframework/web/socket/config/annotation/WebSocketConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-websocket/5.1.5.RELEASE/spring-websocket-5.1.5.RELEASE.jar!/org/springframework/web/socket/handler/TextWebSocketHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ht-dsmxx-websocket/ht-dsmxx-websocket-service/src/main/java/com/ht/dsmxx/websocket/handler/WebSocketNoticeHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ht-dsmxx-websocket/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ht-dsmxx-center/src/main/java/com/ht/dsmxx/HtDsmxxCenterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ht-dsmxx-websocket/ht-dsmxx-websocket-service/src/main/java/com/ht/dsmxx/websocket/config/WebSocketConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ht-dsmxx-center/src/main/java/com/ht/dsmxx/controller/DemoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>ht-dsmxx-websocket:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ht-dsmxx-websocket-interface</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

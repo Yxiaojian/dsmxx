@@ -1,0 +1,161 @@
+2019-07-25 10:49:33.200 [main] ERROR [          ] [org.springframework.boot.SpringApplication:858] - Application run failed
+org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'alarmMailDomain' for bean class [com.ht.dsmxx.websocket.domain.AlarmMailDomain] conflicts with existing, non-compatible bean definition of same name and class [com.ht.dsmxx.websocket.domain.AlarmMailNativeDomain]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:348)
+	at org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate(ClassPathMapperScanner.java:236)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:286)
+	at org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:163)
+	at org.mybatis.spring.annotation.MapperScannerRegistrar.registerBeanDefinitions(MapperScannerRegistrar.java:104)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:364)
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:363)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:145)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:117)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:327)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:232)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:705)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:531)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:139)
+	at com.ht.dsmxx.HtDsmxxCenterApplication.main(HtDsmxxCenterApplication.java:20)
+2019-07-25 11:07:22.382 [main] WARN  [          ] [org.mybatis.spring.mapper.ClassPathMapperScanner:166] - No MyBatis mapper was found in '[com.ht.dsmxx]' package. Please check your configuration.
+2019-07-25 11:07:23.330 [main] WARN  [          ] [org.springframework.context.annotation.AnnotationConfigApplicationContext:557] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'alarmMailDomain': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'alarmMailService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ht.dsmxx.websocket.mapper.AlarmMailMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2019-07-25 11:07:23.640 [main] ERROR [          ] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.ht.dsmxx.websocket.mapper.AlarmMailMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.ht.dsmxx.websocket.mapper.AlarmMailMapper' in your configuration.
+
+2019-07-25 11:07:51.692 [main] WARN  [          ] [org.mybatis.spring.mapper.ClassPathMapperScanner:166] - No MyBatis mapper was found in '[com.ht.dsmxx]' package. Please check your configuration.
+2019-07-25 11:47:15.708 [main] WARN  [          ] [org.springframework.context.annotation.AnnotationConfigApplicationContext:557] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'alarmMailDomain': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'alarmMailService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'alarmMailMapper' defined in file [D:\gitWorkspace\ht-dsmxx\ht-dsmxx-websocket\ht-dsmxx-websocket-service\target\classes\com\ht\dsmxx\websocket\mapper\AlarmMailMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2019-07-25 11:47:15.745 [main] ERROR [          ] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2019-07-25 11:47:35.030 [main] WARN  [          ] [org.mybatis.spring.mapper.ClassPathMapperScanner:166] - No MyBatis mapper was found in '[com.ht.dsmxx]' package. Please check your configuration.
+2019-07-25 11:47:35.619 [main] WARN  [          ] [org.springframework.context.annotation.AnnotationConfigApplicationContext:557] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'alarmMailDomain': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'alarmMailService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ht.dsmxx.websocket.mapper.AlarmMailMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2019-07-25 11:47:35.823 [main] ERROR [          ] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.ht.dsmxx.websocket.mapper.AlarmMailMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.ht.dsmxx.websocket.mapper.AlarmMailMapper' in your configuration.
+
+2019-07-25 11:48:13.452 [main] WARN  [          ] [org.mybatis.spring.mapper.ClassPathMapperScanner:166] - No MyBatis mapper was found in '[com.ht.dsmxx]' package. Please check your configuration.
+2019-07-25 11:48:13.988 [main] WARN  [          ] [org.springframework.context.annotation.AnnotationConfigApplicationContext:557] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoController' defined in file [D:\gitWorkspace\ht-dsmxx\ht-dsmxx-center\target\classes\com\ht\dsmxx\controller\DemoController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.ht.dsmxx.controller.DemoController] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+2019-07-25 11:48:14.018 [main] ERROR [          ] [org.springframework.boot.SpringApplication:858] - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoController' defined in file [D:\gitWorkspace\ht-dsmxx\ht-dsmxx-center\target\classes\com\ht\dsmxx\controller\DemoController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.ht.dsmxx.controller.DemoController] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:570)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:139)
+	at com.ht.dsmxx.HtDsmxxCenterApplication.main(HtDsmxxCenterApplication.java:20)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.ht.dsmxx.controller.DemoController] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:785)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:717)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:365)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:350)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:298)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1061)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:567)
+	... 13 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Lcom/ht/dsmxx/websocket/domain/AlarmMailDomain;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+	at java.lang.Class.getDeclaredFields(Class.java:1916)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:780)
+	... 19 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.ht.dsmxx.websocket.domain.AlarmMailDomain
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 23 common frames omitted
+2019-07-25 11:49:18.230 [main] WARN  [          ] [org.mybatis.spring.mapper.ClassPathMapperScanner:166] - No MyBatis mapper was found in '[com.ht.dsmxx]' package. Please check your configuration.
+2019-07-25 11:49:18.993 [main] WARN  [          ] [org.springframework.context.annotation.AnnotationConfigApplicationContext:557] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2019-07-25 11:49:19.017 [main] ERROR [          ] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2019-07-25 11:50:15.804 [main] WARN  [          ] [org.mybatis.spring.mapper.ClassPathMapperScanner:166] - No MyBatis mapper was found in '[com.ht.dsmxx]' package. Please check your configuration.
+2019-07-25 11:50:16.621 [main] WARN  [          ] [org.springframework.context.annotation.AnnotationConfigApplicationContext:557] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2019-07-25 11:50:16.646 [main] ERROR [          ] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2019-07-25 17:08:31.361 [http-nio-9090-exec-1] WARN  [          ] [org.springframework.web.servlet.PageNotFound:1248] - No mapping for GET /webSocketNoticeHandler/userId=1
+2019-07-25 17:08:38.539 [http-nio-9090-exec-3] WARN  [          ] [org.springframework.web.servlet.PageNotFound:1248] - No mapping for GET /webSocketNoticeHandler/userId=1
